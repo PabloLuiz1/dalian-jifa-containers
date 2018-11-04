@@ -1,0 +1,211 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+	font-family:'Verdana';
+}
+body{
+    font-family: verdana;
+}
+#capecalho{
+	height:100px;
+	background-color: #ed2f59;
+}
+
+#txtPesquisa{
+	width: 200px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#logo{
+	background:  url(../imgs/logo-etec-branca.png);
+	height:89px;
+	width:180px;
+	position:absolute;
+	left:14%;
+	top:.7em;
+	
+}
+#linkLogo{
+	display:block;
+	height:5em;
+	width:203px;
+	position:absolute;
+	left:14%;
+	top:.7em;
+	z-index:1;
+	
+}
+/*Menu*/
+#menu{
+	position:relative;
+	top:35px;
+	padding-left:33%;
+}
+#menu ul{
+	display:inline-block;
+	border-radius:3px;
+	padding:3px;
+}
+#menu ul li{
+	display:inline-block;
+}
+#menu ul li a{
+	height:20px;
+	display:block;
+	padding:5px 10px;
+	text-decoration:none;
+	color:white;
+	border-radius:2px;
+	transition:.3s
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #FFFFFF;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+/*foto do perfil*/
+.foto-perfil{
+	border-radius:100%;
+	width:80px;
+	height:80px;
+	border:2px solid white;
+	left:90%;
+	box-shadow:2px 2px 10px #000000 inset;
+	position:relative;
+	top:-30px;
+	background:url(../imgs/MTI5MDI2MDk5MzA3OTMzNjY2.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:170px 170px;
+}
+
+.foto-perfil figcaption{
+	opacity: 0;
+	position:absolute;
+	top:0px;
+	background-color:rgba(0,0,0,.45);
+	color:white;
+	border-radius:100%;
+	width:100%;
+	height:100%;
+	padding:10px;
+	box-sizing: border-box;
+	transition: opacity .3s;
+}
+.foto-perfil:hover figcaption {
+	opacity:1;
+}
+.foto-perfil figcaption h4{
+	text-align:center;
+	line-height:60px;
+}
+/*Corpo*/
+#tituloPrincipal{
+	text-align:center;
+	color:#00019b;
+	font-weight:700;
+}
+#tituloSegundario{
+	text-align:center;
+	padding:30px;
+}
+
+
+.textoAntesCampo{
+	color:#333333;
+	
+}
+
+/* consulta */
+#janelaConsulta{
+	width: 1024px;
+	height: 800px;
+	margin: 0px;
+	border:none;
+}
+
+#janelaPesquisa{
+	width: 1024px;
+	height: 800px;
+	margin: 0px;
+	border:none;
+}
+
+.priLinha{
+	background:#00019b;
+}
+
+#tableConsulta{
+	background-color: #fafafa; 
+	border: 2px solid black; 
+	border-spacing: 0px;
+}
+
+/* Rodapé */
+#linha1Rodape{
+	height:20px;
+	background:#3e3e3e;
+	
+}
+#copyright{
+	height:60px;
+	background:#2e2e2f;
+	font-family:"Verdana";
+}
+#copyright p{
+	text-align:center;
+	font-size:12px;
+	color:white;
+	line-height:60px;
+}
+#nomeEmpresaRodape{
+	font-weight:500;
+	
+}
+
+/* Link */
+
+.link{
+	position: relative;
+	float: left;
+	width: 66px;
+	height: 24px;
+	text-decoration: none;
+	color: #fff;
+	font: sans-serif;
+	padding-top: 6px;
+}

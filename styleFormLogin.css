@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+#caixaLogin{
+	width:380px;
+	background:#c7c7c7;
+	margin:9% auto;
+	box-shadow:3px 3px 15px grey;
+}
+#caixaLogin header{
+	height:80px;
+	background:#00019b;
+	line-height:80px;
+	padding-left:40px;
+	color:white;
+	
+}
+#caixaLogin header h2{
+	font-weight:300;
+	font-style:italic;	
+}
+#conteudoCaixaLogin{
+	padding:20px 40px;
+	
+}		
+#formulario{
+	margin-top:30px;
+}
+.caixaCampoTexto{
+	border-bottom-left-radius:3px;
+	border-top-left-radius:3px;
+	background:#00019b;
+	height:43px;
+	width:200px;
+}
+.imgIconeLogin {
+	width:23px;
+	margin:8px 12px;
+}
+.campoTexto{
+	border:none;
+	padding:6px 16px;
+	position:absolute;
+	top:-5;
+	width:210px;
+	height:31px;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	font-size:15px;
+}
+.btnEntrar{
+	border:none;
+	border-radius:3px;
+	background-color: #ed2f59;
+	padding:10px 15px;
+	color:white;
+	font-size:.8em;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.45); 
+	margin-left:200px;
+	cursor:pointer;
+}
+.btnEntrar:hover{
+	box-shadow: none;
+}
